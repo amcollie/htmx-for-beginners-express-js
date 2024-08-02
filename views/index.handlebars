@@ -19,10 +19,15 @@
       hx-target="main .book-list ul"
       hx-swap="beforeend"
     >
-      <label for="title">Title: </label>
-      <input type="text" name="title" id="title" required>
-      <label for="author">Author: </label>
-      <input type="text" name="author" id="author" required>
+      <div class="form-group">
+        <label for="title">Title: </label>
+        <input type="text" name="title" id="title" required>
+      </div>
+
+      <div class="form-group">
+        <label for="author">Author: </label>
+        <input type="text" name="author" id="author" required>
+      </div>
       <button type="submit">Add Book</button>
     </form>
   </div>

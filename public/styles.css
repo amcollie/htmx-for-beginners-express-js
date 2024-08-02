@@ -79,3 +79,9 @@ button {
 .search {
   text-align: center;
 }
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+  gap:0.2rem;
+}
